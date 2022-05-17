@@ -1,0 +1,53 @@
+.progress ul{
+	text-align: left;
+	width:560px;
+	 line-height: 0; 
+	 font-size:12px;
+	  font-weight: bold; 
+	  font-family: 'Roboto Flex', sans-serif;"
+}
+
+ul li{
+	display: inline-block;
+	position: relative;
+}
+
+.date{
+	color: #888;
+	line-height: 0;
+	font-size: 9px;
+	margin: 0;
+	font-family: 'Roboto Flex', sans-serif;
+	
+}
+
+ul li .fa{
+	
+	width: 16px;
+	color: #111;
+	
+}
+ul li .fa::after{
+	content: '';
+	background: #169E83;
+	height: 2px;
+	width: 80px;
+	display: block;
+	position: absolute;
+	
+	z-index: -1;
+
+}
+
+ul li:first-child .fa::after{
+	width: 70px;
+	padding-left: 10px;
+
+}
+
+ul li:last-child .fa::after{
+	width: 0px;
+
+}
+
+
